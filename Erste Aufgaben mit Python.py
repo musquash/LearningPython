@@ -36,12 +36,10 @@ Aufgabe: Gebe die letzten beiden Namen aus.
 """
 Der string "PYTHON" hat sechs Buchstaben,
 numeriert mit  0 bis 5, wie unten gezeigt:
-
 +---+---+---+---+---+---+
 | P | Y | T | H | O | N |
 +---+---+---+---+---+---+
   0   1   2   3   4   5
-
 Wenn du den Buchstaben "H" haben moechtest, dann gebe
 "PYTHON"[3] ein
 """
@@ -65,7 +63,7 @@ Aufgabe: Versuche die Woerter "Pfadfinder","sind","cool" miteinander zu verbinde
 
 
 
-string_1 = "Camelot"
+string_1 = "Lorbass"
 string_2 = "place"
 
 print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
@@ -79,12 +77,16 @@ def flaecheKreis(Eingabe):
 	A = 3.14*Eingabe
 	print(A)
 
-#Jetzt kannst du mit flaecheKreis(4), flaecheKreis(2), flaecheKreis(100), ... die jeweiligen Flaechen berechnen lassen.
+#Jetzt kannst du mit flaecheKreis(4), flaecheKreis(2), flaecheKreis(100), ... die jeweiligen Flaechen 
+#berechnen lassen.
+#Versuche mit if else Kommandos negative Eingaben abzufangen.
 
 """
 Aufgabe: schreibe eine Funktion, die den Flaecheninhalt eines gleichschenkligen Dreieecks berechnet.
 	Formel: 0.5*Hypothenuse + Höhe
 	Mache dir Gedanken wie die Formel berechnet wird und was in die Methode eingegeben werden muss.
+	Außerdem versuche hier auch wieder negative Eingaben abzufangen. Diesmal jedoch mit try and error 
+	Funktionen.
 """
 def flaecheDreieck():
 	tmp = 0
@@ -103,7 +105,3 @@ def Listenhalbierer(liste):
 	print("Die erste Haelfte ist " + liste2 + "\n")
 	print("Und dies die Zweite ")
 	#Tipp: Es haben sich zwei Fehler eingeschlichen.
-
-
-
-
